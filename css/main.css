@@ -1,0 +1,56 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header{
+ background-color: #eeeeee;
+ overflow: auto;
+}
+.title{
+
+color:#f58220;
+font-size: 30px;
+line-height: 70px;
+letter-spacing: 3px;
+}
+/*Estilos del menu de la derecha*/
+.nav-right{
+    float: right;
+    
+}
+li{
+    
+    display: inline-block;
+    padding-top: 25px;
+
+}
+a{
+    text-decoration: none;
+    color: #f58220;
+    margin-right: 50px;
+    font-size: 20px;
+}
+a:hover {
+    color: #3d3d3e;
+}
+/*imagen*/
+
+.img{
+    background-image: url("../assets/img/cats.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    height: 450px; 
+    
+}
+.text h2{
+    text-align: center;
+    line-height: 425px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    
+    
+}
+
+
